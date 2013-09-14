@@ -13,7 +13,7 @@ def crack(wifi):
         complete_list = complete_list+a #Yeah it's the brute force
 
 def connect():
-    apid = socket.select_acces_point() #On some deviece wlantools.scan() freeze
+    apid = socket.select_acces_point() #On some deviece wlantools.scan() freeze and it's faster too.please select a wifi hotspot not an internet connection.
     apo = socket.acces_point(apid)
     apo.start
 
