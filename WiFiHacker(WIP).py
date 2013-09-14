@@ -3,7 +3,7 @@ import socket
 import os
 import appuifw
 
-def crack():
+def crack(wifi):
     your_list = 'qwertzuiopasdfghjklíyxcvbnm' #latters you want to use in brute-force attack
     complete_list = []
     for current in xrange(2): #how long the password is default 2
@@ -16,3 +16,5 @@ def connect():
     apid = socket.select_acces_point() #On some deviece wlantools.scan() freeze
     apo = socket.acces_point(apid)
     apo.start
+
+crack(connect())
