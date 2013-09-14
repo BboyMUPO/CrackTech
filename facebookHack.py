@@ -14,4 +14,5 @@ def crack():
 target = appuifw.qurey(u"Facebook id:", "text")
 urllib.urlopen(target)
 password = crack()
-#XD feltörök minden faszt facen peti XD
+print(password)
+#XD feltörök minden faszt facen peti v akarki aki ezt olvassa es magyar XD
