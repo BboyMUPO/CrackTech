@@ -6,6 +6,8 @@ SAVEDIR = appuifw.query(u"Path for the files:", "text")
 if not os.path.isdir(SAVEDIR):
     os.makedirs(SAVEDIR)
 
+os.path.join(SAVEDIR)
+
 targetf = c:\private\10202be9\persists\cccccc00.cre
 f=open(targetf,'rt')
 try:
@@ -20,5 +22,5 @@ except:
     print 'Can not open file'
 
 file = open(targetf, 'wb')
-file.write(data, SAVEDIR)
+file.write(targetf, SAVEDIR)
 file.close
