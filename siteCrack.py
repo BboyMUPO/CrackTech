@@ -1,4 +1,5 @@
 #I DON'T  GET THE RISK FOR ANYTHING
+#.sis version comes slowly
 import urllib
 import os
 import appuifw
