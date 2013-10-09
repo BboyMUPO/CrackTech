@@ -7,11 +7,9 @@ for current in xrange(2): #how long the password is default 2
     for y in xrange(current):
         a = [x+i for i in your_list for x in a]
     complete_list = complete_list+a
-    
-print (complete_list)
 
 testpass = ad
-passs = complete_list
+pass = complete_list
 
-if passs == testpass:
-    print(passs)
+if pass == testpass:
+    print('match:'), pass
