@@ -1,0 +1,5 @@
+;This tutorial will teach you how to make patches for symbian
+;Firstly:The ; means that the line is a comment so it willn't be compiled
+;Secondly:You will need to know how to edit in hex
+;people mostly use SnR(Search and Replace)for making their patches
+;Ending for now..I will contiune tomorrow
