@@ -8,7 +8,7 @@ if not os.path.isdir(SAVEDIR):
 
 os.path.join(SAVEDIR)
 
-targetf = c:\private\10202be9\persists\cccccc00.cre
+targetf = 'C:\\private\10202be9\persists\cccccc00.cre'
 f=open(targetf,'rt')
 try:
     f=open(targetf,'rt')
