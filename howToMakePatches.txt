@@ -2,4 +2,6 @@
 ;Firstly:The ; means that the line is a comment so it willn't be compiled
 ;Secondly:You will need to know how to edit in hex
 ;people mostly use SnR(Search and Replace)for making their patches
-;Ending for now..I will contiune tomorrow
+;first we call a function.Then the path and the file.Then editing the HEX SnR:patch.file:HEX
+SnR:sys\bin\uiss\.dll:000049:000059
+;This code only runs yinstallserver.exe from c\sys\bin
