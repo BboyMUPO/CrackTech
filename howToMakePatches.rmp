@@ -5,3 +5,5 @@
 ;first we call a function.Then the path and the file.Then editing the HEX SnR:patch.file:HEX
 SnR:sys\bin\uiss\.dll:000049:000059
 ;This code only runs yinstallserver.exe from c\sys\bin
+;DO NOT USE THE PATH FOR WITHOUT KNOWING YOUR PHONE MODEL AND FIRMWARE AND DON'T KNOWING COMPATIBILITY!
+;I DON'T GET THE RISK FOR ANYTHING
